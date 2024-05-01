@@ -105,6 +105,8 @@ export const renewToken = async (req, res) => {
     
     res.json({
         msg: 'renovar token',
+        uid,
+        name,
         token
     })
 
